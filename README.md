@@ -60,3 +60,7 @@ Open your browser to the following url `http://dex.local:8080`. If all goes well
 # Put it all together
 
 Now that we have both the chatbot and the robot arm code running, typing `!tip` in Twitch chat should initiate the robot arm movement.
+
+# Setup stream
+
+Check out this [blog post](http://dev.en-japan.io/user-test-with-obs/) by yours truly for some easy-to-follow instructions on how to set up OBS to stream on Twitch.
