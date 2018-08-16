@@ -1,0 +1,26 @@
+{
+  "name": "cheers",
+  "version": "1.0.0",
+  "description": "Twitch chatbot that listens to donations and triggers BrickPi",
+  "main": "cheers_bot.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "haikudos": "^1.0.7",
+    "tmi": "^2.0.0",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawila/cheers.git"
+  },
+  "author": "Salah Hawila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawila/cheers/issues"
+  },
+  "homepage": "https://github.com/shawila/cheers#readme"
+}
