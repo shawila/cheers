@@ -117,3 +117,10 @@ function onDisconnectedHandler (reason) {
   console.log(`Disconnected: ${reason}`)
   process.exit(1)
 }
+
+// Ping our heroku app every 5 minutes so it stays awake
+var http = require('http');
+setInterval(() => {
+  console.log('Poke ...')
+  http.get('http://cheers-chatbot.herokuapp.com')
+}, 300000)
